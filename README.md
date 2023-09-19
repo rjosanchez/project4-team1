@@ -7,7 +7,7 @@ This project was created for the UTSA Data Analytics Bootcamp (module 23: final 
 
 Links: 
 * Presentation: https://docs.google.com/presentation/d/1lNuVniJcwVtbyN0_WUob3fFb8XBJ9R2UxTg6f-tgfic/edit?usp=sharing
-* Tableau: https://public.tableau.com/views/Zillow_ZHVI_Project4/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+* Tableau: https://public.tableau.com/views/Zillow_ZHVI_Project4/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link; https://public.tableau.com/views/project4_16944736794590/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
 
 # Built With
 This project was built with the following programs/languages/libraries: 
@@ -17,7 +17,6 @@ This project was built with the following programs/languages/libraries:
 * Jupyter Notebook
 * Scikit-learn
 * Matplotlib
-* 
 
 # 
 # Project Report: Housing Trends and Predictions in Major Texas Cities
@@ -32,17 +31,12 @@ Our data is in the form of csv files from Zillow housing data site: https://www.
 We analyzed historical data using Tableau. We identified the growth across each year from 2018 to 2023 (using January data points). We also visualized home values across all available zip codes in Texas through heat maps with user driven filters by city. 
 
 ## Building the Maching Learning Model
-We built a machine learning model in Jupyter Notebook using sci-kit learn. 
-
-### Data Preprocessing:
-The data was read into the script from the csv and preprocessed using the following steps: 
-*
-
-### Compiling, Training, and Optimizing the Model:
-
+We built a machine learning model in Jupyter Notebook using sci-kit learn. Our steps included: 
+* Preprocessing and cleaning the data
+* Compiling, Training, and Optimizing the Model using Linear Regression, Lagged Linear Regression, and Polynomial Features. 
 
 ### Results:
-
+* Polynomial Features was the most accurate model.
 
 # Authors
 * Isaac Campos / @icamp14
@@ -51,6 +45,6 @@ The data was read into the script from the csv and preprocessed using the follow
 * Rachel Jo Sanchez / @rjosanchez
 
 # Acknowledgements
-
+* Zillow data source: https://www.zillow.com/research/data/
 
 
